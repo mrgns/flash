@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+Body
+{
+  background-color:#0A596A;
+	}
+.title{
+	display:block;
+	font-family:Brush Script MT,Cursive;
+	margin-left:20px;
+	margin-top:20px;
+	height:60px;
+	width:300px;
+  transform: rotate(-5deg);
+  background: radial-gradient(center, crimson, darken(crimson, 60%));
+  text-shadow: 2px 3px 5px #F5F5F5;
+  box-shadow: 2px 3px 5px #CCCCCC;
+}
+.OuterDiv
+{
+	border-radius:5%;
+	background-color:DarkSlateGray;
+	Height:400px;
+	width:600px;
+	padding:40px;
+	box-shadow:5px;
+}
+.login{
+	border-radius:5%;
+	padding:10%;
+	background-color:Lavender;
+	Height:320px;
+	width:500px;
+}
+.login h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.login input[type="text"],
+.login input[type="password"]
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+#form1example1{
+	height:30px;
+	width:400px;
+}
+#button{
+border:none;
+width:40%;
+font-family: 'Alegreya Sans', sans-serif;
+color:white;
+background:#FA5858;
+margin:0 0 0 55px;
+}
+a{color:LightSeaGreen;}
